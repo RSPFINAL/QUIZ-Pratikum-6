@@ -14,6 +14,7 @@ body{
     height: 100vh;
     width: 100%;
     display:flex;
+    flex-direction: column;
     justify-content: center;
     position: relative;
     align-items: center;
@@ -163,12 +164,12 @@ body{
 }
 
 .co{
-    color: #FCB82D;
+    color: #1961be;
 }
 .bg{
-    background-color: #FCB82D;
+    background-color: #86a8a4;
     color:#F7F7F7;
 }
 .green{
-    color: #19EBC6;
+    color: #0EA293;
 }
