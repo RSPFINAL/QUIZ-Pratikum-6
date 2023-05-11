@@ -12,6 +12,11 @@ function calculate(){
     var	reverse = hasil.toString().split('').reverse().join(''),
 	ribuan 	= reverse.match(/\d{1,3}/g);
 	hasil_ribuan	= ribuan.join('.').split('').reverse().join('');		
+
+    var jumlahangkat = hasil_ribuan.length;
+    if (jumlahangkat > 7){
+        $("#result-item").css("font-size", "25px");
+    }
  
 }
 

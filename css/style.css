@@ -55,6 +55,7 @@ body{
     position: relative;
     flex-direction: column;
     place-items: flex-end;
+    overflow: hidden;
     
 }
 .history-item{
